@@ -117,12 +117,13 @@ input.blue-button {
 .search-container .search-field input {
   border: none;
   border-radius: 25px;
+  text-align: center;
 }
 .search-container .logo-subtext {
   color: #4285f4;
   position: relative;
-  left: 110px;
-  top: -18px;
+  center:10 px;
+  top: 8px;
 }
 
 .advanced-search-container {
