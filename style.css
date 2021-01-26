@@ -41,7 +41,21 @@ input.blue-button {
   padding: 10px 2px;
   margin: 0;
 }
+/* Bottom left text */
+.bottom-left {
+  font-size: x-large;
+  position: absolute;
+  bottom: 10px;
+  left: 16px;
+}
 
+/* Top left text */
+.top-left {
+  font-size: x-large;
+  position: absolute;
+  top: 10px;
+  left: 16px;
+}
 .header, .header-links, .header-advanced-logo, .header-advanced {
   display: flex;
   align-items: center;
