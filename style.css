@@ -4,6 +4,7 @@ body {
   font-family: Arial, sans-serif;
 }
 
+
 input {
   font-size: 16px;
   width: 300px;
@@ -165,5 +166,30 @@ input.blue-button {
 .advanced-search-container .form-group .right-align {
   width: 50%;
 }
+h3 {
+  background-color: #ffffff; /* Green */
+  border: 1px;
+  padding-left: 15px;
+  color: rgb(0, 110, 255);  
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
 
+#teste{
+  width: 400px;
+  height: 400px;
+  background-image: url(http://www.chaveirosecanetas.com.br/image/cache/data/heroes/l081_chaveiro_homer_beer_cerveja-500x500.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom ;
+  background-attachment: fixed;
+}
+#bin {
+  color: #d80000;
+  
+  font-size: 16px;
+  text-align: center;
+  
+  /* Parent selector = & */
+}
 /*# sourceMappingURL=styles.css.map */

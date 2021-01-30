@@ -1,0 +1,58 @@
+<!--Danilo Araujo Sutier
+    Harvard CS'50 Project 0
+    Google Image Search Clone
+ -->
+ <!DOCTYPE html>
+ <html lang="pt-br">
+ <head>
+     <!-- Set viewport with to mobile first -->
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Link to CSS -->
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&effect=neon|outline|emboss|shadow-multiple">
+     <link rel="stylesheet" href="style.css" />
+     <title>BINARIO</title>
+     <script>
+
+         function convert() {
+    const binary = document.getElementById('b-input').value;
+    if (binary === '') return alert('Coloca numero binario ae caraii!');
+    binary.split('').map((char) => {
+        if (char !== '0' && char !== '1') return alert('somente numero binario');
+    });
+    
+    const decimal = parseInt(binary, 2);
+    const hexadecimal = decimal.toString(16);
+    
+    document.getElementById('d-input').value = decimal;
+    document.getElementById('h-input').value = hexadecimal;
+    }
+</script>
+ </head>
+ <body>
+     <!-- HEADER -->
+     <div class="header">
+         <div class="header-links">
+             
+             <a href="index.html">Google Search</a>
+             <a href="advanced.html">Advanced Search</a>
+             <a href="images.html">Imagens</a>
+         </div>
+     </div>
+      
+     </div>
+     
+         <div class="container">
+            
+            <h3> Conversor de Binarios TIO DANILO SUTIER 2021</h3><br>
+            <h3>Binario: <input type="text" id="b-input" onchange="convert()" placeholder="digite aqui o binario..."/></h3><br>
+            <h3>Decimal: <input type="text" id="d-input" readonly /></h3><br>
+            <h3>Hexa  : <input type="text" id="h-input" readonly /></h3><br>
+            <h3><input type="button" id=bin value="CONVERTER" onclick="convert()"><br></h3>
+            
+            <s src="calculadora.js"></s>
+        </div>
+        
+        </div>
+    
+    </body>
+ </html> 
