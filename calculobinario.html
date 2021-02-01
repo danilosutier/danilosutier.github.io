@@ -9,7 +9,11 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <!-- Link to CSS -->
      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&effect=neon|outline|emboss|shadow-multiple">
-     <link rel="stylesheet" href="style.css" />
+     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
      <title>BINARIO</title>
      <script>
 
@@ -30,17 +34,22 @@
  </head>
  <body>
      <!-- HEADER -->
-     <div class="header">
-         <div class="header-links">
-             
-             <a href="index.html">Pagina principal</a>
-         </div>
-     </div>
-      
-     </div>
-     
-         <div class="container">
-            
+     <header>
+		<h2><a href="#">dansutier</a></h2>
+		<nav>
+            <li><a href="google.html">Google las copias</a></li>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="#">Sobre</a></li>
+			<li><a href="#">Contato</a></li>
+		</nav>
+	</header>
+    <section class="hero">
+		<div class="background-image" style="background-image: url(img/hero.jpg);"></div>
+		<h1>Danilo Sutier</h1>
+		<h3>Bem Vindo a Minha Pagina</h3>
+	<!--	<a href="http://tutorialzine.com/2016/06/freebie-landing-page-template-with-flexbox/" class="btn">Download it Here</a>-->
+    </section>
+    <section class="features">   
             <h3> Conversor de Binarios TIO DANILO SUTIER 2021</h3><br>
             <h3>Binario: <input type="text" id="b-input" onchange="convert()" placeholder="digite aqui o binario..."/></h3><br>
             <h3>Decimal: <input type="text" id="d-input" readonly /></h3><br>
@@ -48,9 +57,7 @@
             <h3><input type="button" id=bin value="CONVERTER" onclick="convert()"><br></h3>
             
             <s src="calculadora.js"></s>
-        </div>
-        
-        </div>
-    
+    </section>   
+           
     </body>
  </html> 
