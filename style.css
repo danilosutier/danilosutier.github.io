@@ -52,10 +52,21 @@ input.blue-button {
 
 /* Top left text */
 .top-left {
-  font-size: x-large;
-  position: absolute;
+  font-size: large;
   top: 10px;
   left: 16px;
+}
+.col-sm-6 {
+  font-size: large;
+  top: 12px;
+
+}
+.top-right {
+  font-size: large;
+ 
+  font-family: roboto;
+
+
 }
 .header, .header-links, .header-advanced-logo, .header-advanced {
   display: flex;
@@ -81,21 +92,18 @@ input.blue-button {
   height: 30px;
 }
 .header-links {
-  margin-left: auto;
+  margin-right: auto;
 }
 
 .appbar {
-  margin: 30px 10px;
+  margin: 20px 10px;
   font-family: roboto;
-}
-.appbar label {
-  color: #d93025;
-  font-size: 20px;
-  margin: 50px 30px;
+  color: #ff0000;
+  font-size: 30px;
 }
 
 .separator-line {
-  border-bottom: solid 1px #d6d6d6;
+  border-bottom: solid 1px #bbbbbb;
 }
 
 .search-container {
@@ -155,8 +163,8 @@ input.blue-button {
   padding: 2px 0;
 }
 .advanced-search-container .form-group .clarification {
-  font-size: 11px;
-  width: 30%;
+  font-size: 14px;
+  width: 28%;
   margin-left: 1%;
   font-family: roboto;
 }
@@ -175,15 +183,6 @@ h3 {
   text-decoration: none;
   font-size: 16px;
 }
-
-#teste{
-  width: 400px;
-  height: 400px;
-  background-image: url(http://www.chaveirosecanetas.com.br/image/cache/data/heroes/l081_chaveiro_homer_beer_cerveja-500x500.jpg);
-  background-repeat: no-repeat;
-  background-position: bottom ;
-  background-attachment: fixed;
-}
 #bin {
   color: #d80000;
   
@@ -192,4 +191,3 @@ h3 {
   
   /* Parent selector = & */
 }
-/*# sourceMappingURL=styles.css.map */
